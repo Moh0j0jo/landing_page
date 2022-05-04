@@ -1,0 +1,40 @@
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    background: #1F2937;
+    color: whitesmoke;
+    
+}
+
+.logo {
+    display: flex;
+    align-items:flex-start;
+
+}
+
+.headerlinks {
+ 
+}
+
+ul {
+display: flex;
+gap:20px;
+}
+
+li {
+display: flex;
+}
+
+.body {
+display: flex;
+align-items:center;
+flex-direction: column;
+}
+
+button {
+    background: #3882f6;
+    font-size: 24px;
+    color: white;
+    
+}
