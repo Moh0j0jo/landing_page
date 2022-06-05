@@ -103,6 +103,7 @@ footer {
 .footer {
     color: whitesmoke;
     font-size: 30px;
+    margin: 30px auto 5px;
 }
 
 
@@ -123,23 +124,35 @@ footer {
 }
 
 
-.piclist {
+.container {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin-bottom: 200px;
     justify-content: center;
 }
 
-il img {
+.piclist {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.piclist img {
     width: 200px;
     height: 200px;
     border-style: line;
     border-color: #3882F6;
     border-radius: 15px;
     border: 5px blue solid;
-    margin: 15px;
+    margin: 20px auto 15px;
+}
+
+.piclist a {
+    font-weight: 600;
+    text-align: center;
 }
 
 h3 {
