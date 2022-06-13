@@ -43,7 +43,7 @@
 
 .submit-button {
     margin-left: 10%;
-    width: 14%;
+    width: fit-content;
     background-color: #3882F6;
     color: #E5E7EB;
     font-weight: 600;
